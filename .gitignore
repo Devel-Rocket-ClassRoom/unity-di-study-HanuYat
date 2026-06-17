@@ -144,6 +144,9 @@ x86/
 *.nupkg
 **/[Pp]ackages/*
 !**/[Pp]ackages/build/
+# Unity Package Manager manifest must be tracked
+!Packages/manifest.json
+!Packages/packages-lock.json
 *.nuget.props
 *.nuget.targets
 
